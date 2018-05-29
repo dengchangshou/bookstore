@@ -1,0 +1,19 @@
+body {
+    background-color: #eee;
+}
+
+.container {
+    margin-left: 30%;
+}
+
+select {
+    height: 25px;
+}
+
+.control-group {
+    padding: 3px;
+}
+
+.btn {
+    margin-top: 10px;
+}

@@ -1,0 +1,201 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: white;
+}
+
+/*top:start*/
+
+#nav {
+    margin-bottom: 0px;
+}
+
+.container-fluid{
+    float: right;
+}
+
+.top {
+    padding: 0px;
+    margin: 0px;
+}
+
+.active {
+    float: right;
+    padding-right: 15px;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+}
+
+.btn-block {
+    width: 35%;
+    height: 35px;
+    float: right;
+}
+
+.btn-lg {
+    padding: 0;
+}
+
+.form-signin {
+    max-width: 300px;
+    padding-right: 10px;
+    margin: 0 auto;
+    float: right;
+    position: relative;
+    height: 35px;
+}
+
+.form-control {
+    margin-bottom: 5px;
+}
+
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.h2 {
+    margin-top: 0px;
+}
+
+/*top:end*/
+
+/*category:start*/
+
+.category {
+    width: 15%;
+    height: 100%;
+    float: left;
+    background-color: #ddd;
+}
+
+#category-1 {
+    background-color: #eee;
+}
+
+h3 {
+    margin-left: 10px;
+}
+
+/*category:end*/
+
+/*content:start*/
+
+.content {
+    float: right;
+    margin: 0px;
+    width: 85%;
+    height: 100%;
+    background-color: white;
+}
+
+#bookImg {
+    width: 150px;
+    height: 150px;
+}
+
+.bookcontainer {
+    padding-top: 25px;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 25px;
+    line-height: 20px;
+    height: 20px;
+    width: 110px;
+}
+
+.bookcontainer li {
+    width: 150px;
+    margin-right: 47px;
+    margin-bottom: 16px;
+    height: 250px;
+    position: relative;
+    overflow: visible;
+    float: left;
+}
+
+.book {
+    width: 150px;
+}
+
+.name {
+    overflow: hidden;
+}
+
+.author {
+    color: #666;
+    overflow: hidden;
+}
+
+#cargo {
+    width: 20px;
+    height: 20px;
+    float: right;
+}
+
+.section {
+    padding: 20px;
+}
+
+.title {
+    border-bottom: 2px solid #e5e5e5;
+    height: 22px;
+    margin-bottom: 10px;
+}
+
+.title span{
+    float: left;
+    border-left: 2px solid #ff2832;
+    padding: 0 30px 0 6px;
+    background: #e5e5e5 url(../img/books/product_sprites.png) no-repeat right -525px;
+    height: 22px;
+    position: relative;
+    font: 14px/22px "Microsoft Yahei";
+    color: #323232;
+}
+
+.descrip {
+    color: #656565;
+    line-height: 22px;
+    padding: 14px 20px;
+    font-size: 15px;
+}
+
+#bookImg1 {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+/*content:end*/
+
+
